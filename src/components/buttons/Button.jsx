@@ -5,8 +5,7 @@ const Button = (props) => {
   return (
     <>
       <div className={props.divClass}>
-        <button className={props.className} onClick={props.onClick} 
-        style={{props.bg ? "background-color: yellow" : "s" }}>
+        <button className={props.className} onClick={props.onClick}>
           {props.children}
         </button>
 
