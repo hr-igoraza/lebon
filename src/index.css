@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,12 +6,34 @@
   font-size: 16px;
 }
 
-.my-3{
+body {
+  background-color: #1e1e1e;
+  overflow-x: hidden;
+}
+
+.font-sm{
+  font-size: 1em !important;
+}
+
+.my-3 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.my-5{
+.my-5 {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.mt-5{
+  margin-top: 30px;
+}
+
+.mb-5{
+  margin-bottom: 30px;
+}
+
+.mt-6 {
+  margin-top: 50px;
+}
+

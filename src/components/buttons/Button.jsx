@@ -19,8 +19,8 @@ const Button = (props) => {
           <path
             d="M1 1L52 1"
             stroke={props.stroke}
-            stroke-width="2"
-            stroke-linecap="round"
+            strokeWidth="2"
+            strokeLinecap="round"
           />
         </svg>
       </div>

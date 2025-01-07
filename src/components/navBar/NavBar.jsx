@@ -26,7 +26,7 @@ const NavBar = () => {
           </ul>
         </div>
 
-        <Button className={"button bt-txt-yellow"} divClass={"bt-container"} stroke={"#f5be32"}>RESERVATION</Button>
+        <Button className={"button txt-yellow"} divClass={"bt-container"} stroke={"#f5be32"}>RESERVATION</Button>
       </nav>
     </>
   );

@@ -1,0 +1,28 @@
+.title{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    color: #F3D382;
+}
+
+.todays-special{
+    padding: 50px 100px 50px 100px;
+    width: fit-content;
+}
+
+.special-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.special-items{
+    display: flex;
+
+}
+
+.special-items img{
+    object-fit: cover;
+}
