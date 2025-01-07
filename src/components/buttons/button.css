@@ -1,25 +1,36 @@
-.button-glow {
-    font-family: "Cormorant SC";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #f5be32;
-    background-color: transparent;
-    border: none;
-    width: fit-content;
-    
-  }
-  
-  .button-action {
-    display: flex;
-    align-items: center;
-    border: 2px solid #f5be32;
-    filter: drop-shadow(0px 4px 15px #F5BE32);
-    padding: 5px;
-    height: fit-content;
-    width: fit-content;
-    gap: 5px;
-  }
-  
+.button {
+  font-family: "Cormorant SC";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  width: fit-content;
+ 
+}
+
+.bt-container {
+  display: flex;
+  align-items: center;
+  border: 2px solid #f5be32;
+  filter: drop-shadow(0px 4px 15px #f5be32);
+  padding: 5px;
+  height: fit-content;
+  width: fit-content;
+  gap: 10px;
+}
+
+
+.bt-txt-yellow {
+  color: #f5be32;
+}
+
+.bt-txt-black{
+  color: #000000;
+}
+
+.bt-ct-yellow{
+  background-color: #f5be32;
+}

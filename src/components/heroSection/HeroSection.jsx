@@ -14,7 +14,7 @@ const HeroSection = () => {
             richness in every food we serve.
           </p>
 
-          <Button className={"button-glow"} divClass={`button-action my-5`}>GO TO MENU</Button>
+          <Button className={"button "} stroke={"#000000"}  divClass={`bt-container bt-txt-black bt-ct-yellow my-5`}>GO TO MENU</Button>
         </div>
       </section>
     </>

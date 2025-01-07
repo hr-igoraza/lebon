@@ -18,7 +18,7 @@ const Button = (props) => {
         >
           <path
             d="M1 1L52 1"
-            stroke="#F5BE32"
+            stroke={props.stroke}
             stroke-width="2"
             stroke-linecap="round"
           />
